@@ -1,0 +1,66 @@
+:root{
+    font-size: 12px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.em-ejemplo{
+    font-size: 10px;
+    background-color: #e0e0e0;
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.em-ejemplo p{
+    font-size: 1.2em;
+}
+
+.rem-ejemplo{
+    padding: 16px;
+    background-color: #e0e0e0;
+    font-size: 20px;
+}
+
+.rem-ejemplo p{
+    font-size: 2rem;
+}
+
+.nav-menu{
+    font-size: 1.6rem;
+    background-color: black;
+    padding: 16px;
+}
+
+.nav-menu ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-menu a{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px){
+    .nav-menu ul{
+        background-color: chocolate;
+    }
+
+    .nav-menu ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-menu a{
+        display: none;
+    }
+    .elemento{
+        display: block !important;
+    }
+}
+
