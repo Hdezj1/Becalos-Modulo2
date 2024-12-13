@@ -1,0 +1,53 @@
+/*Estilos globales*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Te amo como a una hermana", sans-serif;
+}
+
+/*Estilos del header*/
+header{
+    background-color: red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/*Contenedor principal de tarjetas*/
+.books-container{
+    padding: 20px;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/*Estilos de cada tarjeta*/
+.book-card{
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    max-width: 300px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 0.2);
+    overflow: hidden; /*Evita que el contenido se desborde fuera de los limites*/
+}
+
+.book-card img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover; /*Esta propiedad controla como una imagen debe redimensionarse para ajustarse a su contenedor*/
+    object-position: center; /*Determina la posicion de la imagen*/
+}
+
+.book-inf{
+    padding: 15px;
+}
+
+.book-inf h2{
+    color: red;
+}
+
+.book-inf p{
+    color: black;
+    line-height: 1.5;
+}
