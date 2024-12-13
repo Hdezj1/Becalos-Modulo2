@@ -1,0 +1,61 @@
+/*Estilos base oara demostrar herencia*/
+body{
+    margin: 0;
+    font-family: "Mystery Quest", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #333;
+    line-height: 1.6;
+}
+
+/*Ejemplo de cascada*/
+.contenedor{
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+p{
+    color: blue;
+}
+
+.texto{
+    color: red;
+    /*color: red !important; si o si agrega el color rojo a los elementos de tipo p*/
+}
+
+#parrafo-especial{
+    color: green;
+}
+
+.contenedor .texto.destacado{
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.seccion-familiar{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid #666;
+    padding: 15px; /*Da espacios dentro de los div*/
+    margin-top: 20px;
+}
+
+.caja-simple{
+    background-color: #ffcdd2;
+    border: 2px dashed red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.texto-centrado{
+    text-align: center;
+    color: #2196f3;
+}
+
+.texto-grande{
+    font-size: 24px;
+}
+
+.texto-pequeño{
+    font-size: 12px;
+}
